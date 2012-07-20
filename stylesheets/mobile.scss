@@ -4,6 +4,11 @@ $link-color: #666;
 $break-small: 320px;
 $break-large: 1200px;
 
+$f-img-h: 248px;
+$f-img-w: 696px;
+$p-img-h: 200px;
+$p-img-w: 300px;
+
 
 /* Defaults */
 
@@ -19,11 +24,14 @@ html {
 	font-size: 62.5%;
 }
 
+.clear { clear: both; }
+
 /* Homepage : Portfolio Showcase */
 
 ul#portfolio-showcase {  
 	padding: 0; 
 	margin: 0;
+	list-style: none;
 }
 
 ul#portfolio-showcase li.feature {
@@ -42,6 +50,20 @@ ul#portfolio-showcase li {
   	}
   	@media screen and (min-width: 1200px) {
    		width: 25%;
+  	}
+}
+
+ul#portfolio-showcase li.feature img {
+	@media screen and (max-width: 675px) {
+    	height: $f-img-h*.75;
+    	width: $f-img-w*.75;
+  	}
+}
+
+ul#portfolio-showcase li img {
+	@media screen and (max-width: 675px) {
+    	height: $p-img-h*.75;
+    	width: $p-img-w*.75;
   	}
 }
 
