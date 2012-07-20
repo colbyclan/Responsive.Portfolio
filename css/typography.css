@@ -1,0 +1,214 @@
+/* =Typography 
+--------------------------------------------------------------------------------*/
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 62.5%;
+}
+
+h2 {
+	font-family: Gill Sans, Verdana;
+}
+
+body {
+	
+}
+
+h2, .portfolio_piece h4 {
+	font-size: 1.1em;
+	line-height: 1.4em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 2.5em;
+}
+
+#home h3 {
+	padding: 0 0 0 10px;
+	margin: 0 0 15px 0;
+}
+
+.bubble {
+	font-style: italic;
+	font-weight: bold;
+	line-height: 1.4em;
+}
+
+#nav {
+	font-size: 1.1em;
+}
+
+#main h2 {
+	text-indent: 15px;
+	letter-spacing: .2em;
+}
+
+#portfolio #main {
+	width: auto;
+	float: none;
+	padding: 15px 0 15px 15px;
+}
+
+#portfolio .portfolio_piece .details {
+	width: 400px;
+	float: left;
+	padding: 0 0 0 15px;
+}
+
+#portfolio .portfolio_piece {
+	padding: 15px 0 15px 15px;
+	margin: 0;
+}
+
+#portfolio .portfolio_piece p {
+	font-size: 1.3em;
+	padding: 0 100px 0 0;
+}
+
+#blog .postmetadata {
+	height: 30px;
+	margin: 15px 0;
+	line-height: 30px;
+	text-indent: 30px;
+	border: 1px solid #999;
+	background: url(../img/lines_comment_bg.jpg);
+}
+
+#blog .sharebar {
+	margin: 15px 0;
+	padding: 5px 5px;
+	border: 1px solid #999;
+	background: url(../img/lines_comment_bg.jpg);
+}
+
+#blog .content {
+}
+
+#blog .content p{
+	margin: 0 0 15px 0;
+	padding: 0 10px;
+}
+
+#blog .post ul, dl, ol {
+	list-style-position: inside;
+	text-indent: 15px;
+}
+
+h3 a:hover {
+	border-bottom: 1px solid #999;
+	/*background: #65c0f0;*/
+}
+
+a.view_site_btn {
+	display: block;
+	height: 31px;
+	width: 111px;
+	background: url(../img/viewsite_btn.jpg) no-repeat 0 0;
+	text-indent: -99999px;
+	margin: 20px 0;
+}
+
+a.view_site_btn:hover {
+	background: url(../img/viewsite_btn.jpg) no-repeat -111px 0;
+}
+
+
+#blog .post a.continue {
+	display: block;
+	text-align: right;
+	margin: 15px 0 0 0;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#blog .post a.continue:hover {
+	color: #65c0f0;
+}
+
+#portfolio .portfolio_piece, #blog .post {
+	float: none;
+	width: auto;
+	background: none;
+	padding: 0 0 30px 0;
+	margin: 0 0 30px 0;
+	border-bottom: 1px solid #AFAFAF;
+}
+
+#portfolio .portfolio_piece .display {
+	float: right;
+	border: 0;
+}
+
+#portfolio .portfolio_piece .display img {
+	border: 0;
+}
+
+#portfolio .portfolio_piece h4 {
+	margin: 15px 0 5px 0;
+}
+
+#portfolio .portfolio_piece p {
+	margin: 15px 0 0 0;
+}
+
+#spotlight h3, #portfolio_work h3, #latest_posts h3 {
+	font-size: 5.0em;
+}
+
+#footer h3 {
+	font-size: 2.5em;
+	padding: 25px 0 4px 0;
+}
+
+h4 {
+	letter-spacing: -.02em;
+	font-size: 3.6em;
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.no_text{
+	text-indent: -9999px;
+}
+
+p, li {
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+.new_line {
+	font-size: .8em;
+	line-height: .8em;
+}
+
+#sidebar h4 {
+	font-size: 2.2em;
+}
+
+#footer p {
+	line-height: 2.0em;
+}
+
+h2.snipit {
+	line-height: 100px;
+	font-size:2.0em;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	text-align:center;
+}
+
+.image_details h4 {
+	font-size: 1.4em;
+	font-style: italic;
+}								
+
+.portfolio_piece h4 {
+	font-size: 1.1em;
+}

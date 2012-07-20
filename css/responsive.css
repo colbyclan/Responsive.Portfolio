@@ -1,0 +1,102 @@
+/*--------------------------------------------------------------------------------
+  Responsive Style Sheet
+
+  author:   Joseph Colby
+  email:    colbyclan@gmail.com
+  website:  http://www.josephcolby.com
+--------------------------------------------------------------------------------*/
+
+body {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+
+h3 { 
+	font-size: 3.5em; 
+	margin-bottom: 10px;
+}
+
+p, ul { 
+	font-size: 1.4em; 
+	line-height: 1.5;
+}
+
+a { border-bottom: 1px dotted #fff; }
+
+.block { margin-bottom: 20px; }
+
+#main_col, #secondary_col {
+	float: left;  
+	width: 48%;
+}
+
+#footer, #footer_wrapper {
+	padding-bottom: 2%;
+	padding-top: 2%;
+	margin-top: 2%;
+}
+
+#wrapper, #footer_wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+ul.skillSet li {
+	padding: 10px 0 10px 15px;
+	border: 1px solid #1D1E1F;
+	line-height: 1.8em;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 10px;
+} 
+
+/* COLORS */
+#footer { background: #EFEFEF; }
+#footer_wrapper { background: #BDD4DE; }
+h3 { color: #3F5765; }
+p, ul, a { color: #2B3A42; }
+ul.skillSet { color: #EFEFEF; }
+ul.skillSet li { background: #2B3A42; }
+
+
+/* MEDIA QUERIES */
+/* Smart Phones & IPhone */
+@media only screen and (min-width: 0px){
+	#main_col, #secondary_col {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	
+	#main_col, #secondary_col { width: 100%;}
+	ul.skillSet li { width: 100%; }
+	#wrapper, #footer_wrapper { width: 100%; }
+	h3 { font-size: 3.0em; }
+}
+
+
+/* IPAD and Tablets */
+@media only screen and (min-width: 800px){
+	
+	#main_col, #secondary_col { width: 50%; } 
+	ul.skillSet li { margin-right: 2% }
+	
+	ul.skillSet li {
+		float: left;
+		width: 46%;
+	}
+}
+
+
+/* Smart Phones & IPhone */
+@media only screen and (min-width: 1024px){
+
+	h3 { font-size: 3.5em; }
+	#main_col { padding-right: 2%; }
+	#secondary_col { padding-left: 2%; }
+	
+	#wrapper, #footer_wrapper {
+		width: 1024px;
+		margin: 0 auto;
+	}
+}
