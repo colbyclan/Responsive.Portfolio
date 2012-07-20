@@ -1,0 +1,23 @@
+/*
+ * Stylesheet for Debugging 
+ *
+ * Author: Joseph W. Colby
+ * Website: JosephColby.com
+ *
+ */ 
+ 
+ .debug-section, .debug-subsection {
+ 	display: none;
+ }
+ 
+ .debug-section {
+ 	color: #ff3291;
+ 	font-weight: 700;
+ 	border-bottom: 1px dotted #ff3291;
+ }
+ 
+  .debug-subsection {
+ 	color: #ff3291;
+ 	font-weight: 700;
+ 	font-style: italic;
+ }
